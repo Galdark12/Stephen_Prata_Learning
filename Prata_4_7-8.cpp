@@ -46,6 +46,7 @@ int main()
 	cout << "Diameter: " << test_struct->diameter << endl;
 	cout << "Weight: " << test_struct->pizza_weight << endl;
 	cout << "*******************************" << endl;
+	delete test_struct;
 
 	system("pause");
 	
